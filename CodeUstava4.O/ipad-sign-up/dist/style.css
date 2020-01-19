@@ -1,0 +1,83 @@
+input:focus{
+    outline: 0;
+}
+
+::-webkit-input-placeholder {
+font-size:1em;
+}
+
+:-moz-placeholder { 
+font-size:1em; 
+}
+
+::-moz-placeholder {  
+font-size:1em; 
+}
+
+body
+{
+background:url(https://image.shutterstock.com/image-photo/airport-many-airplanes-beautiful-sunset-260nw-324754607.jpg) no-repeat 0 0;
+background-size:cover;
+font-family:Verdana;
+fon-size:0.9em;
+}
+
+h1{font-size:1.6em;color:#fff;text-align:center;font-weight:normal;}
+
+#loginform
+{
+width:600px;
+height:auto;
+margin:1% auto;
+}
+
+#inputlbl{padding:0px 0px 0px 20px;
+background:rgba(255,255,255,0.8);
+border-radius:5px;
+
+}
+
+#loginform .inputsnlables:last-child{border-bottom:none;}
+
+.inputsnlables
+{
+overflow:auto;
+border-bottom:1px solid #dedede;
+}
+
+label
+{
+display:block;
+font-size:0.9em;
+color:#767676;
+padding:20px 0px;
+width:100px;
+float:left;
+font-weight:bold;
+}
+
+input
+{
+border:none;
+padding:20px 0px;
+background:transparent;
+width:230px;
+font-size:0.9em;
+}
+
+
+input[type=button]
+{
+background:#2c98e0;
+text-align:center;
+width:100%;
+border-radius:5px;
+font-size:1em;
+color:#fff;
+margin-top:10px;
+cursor:pointer;
+-webkit-transition:0.5s ease;-moz-transition:0.5s ease;transition:0.5s ease;
+}
+
+
+input[type=button]:hover{background:#1c7dbe;-webkit-transition:0.5s ease;-moz-transition:0.5s ease;transition:0.5s ease;}
